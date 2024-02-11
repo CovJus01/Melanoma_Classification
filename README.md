@@ -24,7 +24,7 @@ Currently I am using a regular Dense neural network. It initially had the follow
 -  Layer 5: 25 units with ReLU activation
 -  Layer 6: 10 units with ReLU activation
 -  Layer 7: 3 units with linear activation
-This model used the Sparse Categorical Cross Entropy to calculate it's loss and used the data from the logits.
+\nThis model used the Sparse Categorical Cross Entropy to calculate it's loss and used the data from the logits.
 This model ran into the problem of settling on always predicting the most common value, 0 leading to no change in the resulting prediction
 
 The second iteration was simplified and takes on this structure (Current Model):
@@ -32,5 +32,5 @@ The second iteration was simplified and takes on this structure (Current Model):
 -  Layer 2: 15 units with ReLU activation
 -  Layer 3: 7 units with ReLU activation
 -  Layer 4: 3 units with linear activation
-This is the current model that I am currently using to analyze the data and verify that it is working as intended. I am currently updating the process so that I can analyze the training vs validation error and many other attributes that will help me in optimizing the way I create the neural network.
+\nThis is the current model that I am currently using to analyze the data and verify that it is working as intended. I am currently updating the process so that I can analyze the training vs validation error and many other attributes that will help me in optimizing the way I create the neural network.
 # To be continued...
