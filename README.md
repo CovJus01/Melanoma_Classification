@@ -31,6 +31,6 @@ The second iteration was simplified and takes on this structure (Current Model):
 -  Layer 1: 25 units with ReLU activation
 -  Layer 2: 15 units with ReLU activation
 -  Layer 3: 7 units with ReLU activation
--  Layer 4: 3 units with linear activation/
+-  Layer 4: 3 units with linear activation\
 This is the current model that I am currently using to analyze the data and verify that it is working as intended. I am currently updating the process so that I can analyze the training vs validation error and many other attributes that will help me in optimizing the way I create the neural network.
 # To be continued...
